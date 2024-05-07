@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resep</title>
+     <link rel="shortcut icon" href="ol.png" type="image/x-icon">
+    <link rel="stylesheet" href="t.css" />
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start nav------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Resep Makanan</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" onclick="scrollto('home')"
+             ">Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollto('gallery')">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollto('conatct')">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollto('about')">About</a>
+          </li>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- end nav------------- -->
+
+    <!-- header----------------- -->
+    <div class="jumbotron text-light p-20">
+      <div class="black">
+        <h1 class="display-4 text-center font-weight-light">
+          Resep Makanan 
+        </h1>
+
+        <hr class="my-4" style="background-color: rgb(221, 216, 211)" />
+        <p class="mt-20 lead text-center font-weight-bold">
+          Semua Resep Makanan ada disini
+        </p>
+      </div>
+    </div>
+
+    <!-- end header----------------- -->
+
+    <!-- start herald------------ -->
+    <h1 class="text-center mt-5" id="home">Tutorial Masak</h1>
+    <div class="imgglry mx-auto text-center">
+    </div>
+    <div class="mt-5 container">
+      <div class="card-deck mb-5">
+        <div class="card">
+          <img
+            src="donat.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Donat Kentang</h5>
+            <p class="card-text">
+              Bahan:
+
+<p>100 gram kentang, kukus dan haluskan
+250 gram terigu protein tinggi
+50 gram gula pasir
+2 butir kuning telur
+1 sachet susu bubuk vanila
+50 ml air es
+6 gram ragi instan
+35 gram margarin
+Sejumput garam </p>
+
+<p>Cara Buat:
+
+Campur terigu, gula, susu bubuk, dan ragi sampai rata.
+Masukkan kentang, telur, dan air es sedikit demi sedikit pada adonan terigu. Uleni sampai kalis.
+Tambahkan margarin dan garam. Uleni sampai kalis.
+Buat adonan jadi bulatan besar, tutup wadah sampai sekitar 30 menit.
+Keluarkan udara dalam adonan dengan cara meninju adonan, lalu tipiskan adonan dan cetak.
+Diamkan adonan yang dicetak selama 20-30 menit, tutup dengan kain.
+Goreng donat di atas api kecil sampai matang.
+Tambahkan topping sesuai selera.</p>
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="martabak.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Martabak Telur</h5>
+            <p class="card-text">
+              Bahan Kulit:
+
+<p>10 lembar kulit lumpia
+Bahan Isi:
+
+200 gram daging giling
+3 butir ayam ukuran sedang
+200 gram daun bawang (iris halus)
+3 siung bawang putih (cincang halus)
+½ sdt merica bubuk
+½ sdt garam atau kaldu bubuk</p>
+
+Cara Buat:
+
+<p>Tumis bawang putih sampai wangi, lalu tambahkan daging. Aduk sampai matang.
+Pindahkan tumisan daging ke wadah, campur dengan daun bawang, telur, merica bubuk, dan garam atau kaldu sampai merata.
+Siapkan selembar kulit lumpia. Sendokkan bahan isi, tempatkan di atas lembaran kulit lumpia, lipat seperti amplop. Rekatkan bagian ujung kulit lumpia dengan telur.
+Panaskan minyak dengan api sedang, masukkan martabak. Goreng sampai matang, tiriskan.</p>
+
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="semur.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Semur Daging</h5>
+            <p class="card-text">
+              Bahan-bahan:
+
+<p>750 gr daging sapi
+6 lembar daun salam
+1 sdm garam halus
+Air secukupnya untuk merebus daging
+Bahan Lainnya :
+1/2 kg kentang, kupas, potong agak besar
+5 butir telur ayam yg sudah direbus</p>
+
+Bumbu Halus :
+
+<p>10 siung bawang merah
+5 siung bawang putih
+4 butir kemiri
+1 biji pala
+Bumbu Lainnya :
+4 biji kapulaga
+2 buah kembang lawang
+2 buah kayu manis ukuran 3 cm
+3 batang serai, memarkan
+2 ruas jari lengkuas, memarkan
+4 lembar daun salam
+1 sdm lada bubuk
+3 sdm air asam jawa
+6 sdm kecap manis
+6 sdm gula jawa yg sudah disisir
+Secukupnya kaldu jamur bubuk
+Secukupnya air</p>
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+        </div>
+      
+  
+
+</form>
+</div>
+</div>
+</div>
+<div class="container-fluid m-0 p-0 pb-5"  id="offers">
+  <div class="container mx-auto pb-9"  id="ser1">
+      <h1 id="ser2" style="text-align: center;line-height:3;color: rgb(3, 9, 12);padding-top: 30px;">
+        Receips</h1>
+      
+      <div class="imgglry" style="margin: auto;text-align: center;">
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+    <div class="kafe-price" >
+      <h3 class="item-heading" contenteditable="true">Sayur Bobor</h3> <p>Bahan-bahan
+        1 ikat bayam
+        1 buah jagung manis
+        4 buah labu siam mini
+        65 ml santan instan
+        750 ml air
+        2 sdm minyak goreng buat menumis bumbu
+        Bumbu Halus :
+        8 siung bawang merah
+        4 siung bawang putih
+        2 ruas jari kencur
+        1 sdm ketumbar halus
+        Bumbu Lainnya :
+        4 lembar daun salam
+        2 jari lengkuas, memarkan
+        2 sdt gula pasir
+        Secukupnya garam
+        Secukupnya kaldu jamur bubuk</p>
+      </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+      <div class="kafe-price">
+        <h3 class="item-heading">Soto Daging
+        </h3> <p>Bahan-bahan
+          1 kg daging sapi
+          5 lembar daun salam
+          2 sdm garam
+          100 ml santan kental, aku pakai santan instan
+          250 ml full cream
+          Secukupnya air
+          Secukupnya minyak goreng untuk menumis bumbu halus
+          Bumbu Halus :
+          10 siung bawang merah
+          4 siung bawang putih
+          1 ruas kunyit
+          3 butir kemiri
+          Bumbu Lainnya :
+          3 batang serai, bagian putihnya saja, memarkan
+          2 ruas jari lengkuas, memarkan
+          1 ruas jari kayu manis
+          5 buah cengkeh
+          5 lembar daun jeruk
+          5 lembar daun salam
+          1 sdm ketumbar
+          Bumbu Penyedap :
+          1 sdm gula pasir
+          Secukupnya garam
+          Secukupnya kaldu jamur bubuk
+          Bahan Pelengkap :
+          1/2 kg kentang, iris tipis
+          1 buah tomat</p>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+        <div class="kafe-price">
+          <h3 class="item-heading">Babat Paru Gongso
+          </h3> <p>Bahan-bahan
+            500 gr Babat Sapi
+            500 gr Paru Sapi
+            1 sdm kunyit bubuk
+            2 sdm garam dapur
+            1 ruas jahe, dimemarkan
+            10 lembar daun salam
+            Secukupnya air buat merebus
+            Bumbu halus :
+            10 siung bawang merah
+            5 siung bawang putih
+            Bahan Lainnya :
+            5 siung bawang merah di iris tipis
+            2 buah batang serai, ambil bagian putihnya, memarkan
+            2 ruas lengkuas, memarkan
+            5 lembar daun jeruk
+            6 buah cabai rawit merah
+            Secukupnya gula jawa
+            Secukupnya kaldu bubuk
+            Secukupnya garam
+            Secukupnya lada bubuk
+            Secukupnya gula pasir
+            Secukupnya minyak goreng</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <h1 class="text-center mt-5" id="conatct">Contact Us</h1>
+  <div class="container">
+    <div class="form " style="margin-top: 40px;">
+    <form>
+      
+        <div class="form-group " >
+          <label for="formGroupExampleInput">First Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Last Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
+        </div>
+    
+      
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      
+    </form>
+    <script>
+    function scrollto(div) 
+    {
+      $('html,body').animate(
+            {
+                scrollTop: $("#" + div).offset().top
+            }, 2000);
+    }
+    </script>
+    <script src="bootstrap-4.6.2-dist/js/jquery-3.6.4.min.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
